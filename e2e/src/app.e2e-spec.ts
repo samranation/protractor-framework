@@ -9,5 +9,6 @@ describe('Easy Jet home page', () => {
 
   it('should be able to complete a checkout for a new flight', async () => {
     await homePage.navigateTo();
+    homePage.enterFromAndToDestination();
   });
 });
