@@ -1,14 +1,13 @@
-import { AppPage } from './app.po';
+import { HomePage } from './app.po';
 
-describe('workspace-project App', () => {
-  let page: AppPage;
+describe('Easy Jet home page', () => {
+  let homePage: HomePage;
 
   beforeEach(() => {
-    page = new AppPage();
+    homePage = new HomePage();
   });
 
-  it('should display welcome message', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to protractor-framework!');
+  it('should be able to complete a checkout for a new flight', async () => {
+    await homePage.navigateTo();
   });
 });
