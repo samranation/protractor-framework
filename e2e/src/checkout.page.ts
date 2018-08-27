@@ -23,6 +23,7 @@ export class CheckoutPage extends TestUtility {
   }
 
   public signUpAsNewCustomer() {
+    this.waitForElementVisibility(newCustomerRadioBtn);
     this.waitForElementClickable(newCustomerRadioBtn).then(() => newCustomerRadioBtn.click());
     const randomNumber = (Math.floor(Math.random() * 9999)).toString();
     this.waitForElementVisibility(usernameField).then(() => {
