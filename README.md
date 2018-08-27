@@ -4,9 +4,9 @@ Welcome to this protractor framework which runs tests against EasyJet Angular we
 
 ## Technologies 
 
-TypeScript
-Jasmine
-Protractor
+TypeScript,
+Jasmine,
+Protractor,
 ChromeDriver
 
 ## Pre-requisites
