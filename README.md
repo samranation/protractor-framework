@@ -12,9 +12,11 @@ ChromeDriver
 ## Pre-requisites
 
 1. Linux/Unix environment
-2. git clone project `git@github.com:samranation/protractor-framework.git`
-3. in Terminal cd to cloned project directory
-4. run `npm install package.json`
+2. install node and npm `brew install node` (Unix)
+3. install angular-cli `npm install -g @angular/cli`
+4. git clone project `git@github.com:samranation/protractor-framework.git`
+5. in Terminal cd to cloned project directory
+6. run `npm install package.json`
 
 ## Running end-to-end tests using Terminal
  
