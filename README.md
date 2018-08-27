@@ -1,4 +1,6 @@
-# ProtractorFramework
+# protractor framework
+
+Welcome to this protractor framework which runs tests against EasyJet Angular web pages.
 
 
 ## Pre-requisites
